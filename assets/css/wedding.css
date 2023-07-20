@@ -1,0 +1,659 @@
+.wedding_header{
+ display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.body
+{
+ font-family: 'Pangolin', cursive;;
+}
+.option_image
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.option_text_link
+{
+    display: flex;
+    justify-content: center;
+}
+.index_main_wedding
+{
+    justify-content: center;
+    display: flex;
+
+}
+
+.first_option_image
+{
+    border: solid rgb(71, 61, 61);
+    margin-top: 10px;
+    border-width: 2px;
+}
+.option_image_text
+{
+    justify-content: center;
+    display: flex;
+}
+.wedmethod
+{
+  padding: 10px;
+}
+.wed_guid{
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+.margin_bottom
+{
+  padding-top: 10px;
+}
+
+
+/* -------------------nishantcss-------------- */
+
+
+.whatsapp
+{
+  margin-left: -10vh;
+}
+
+.method
+{
+  justify-content: center;
+  display: flex;
+}
+
+.forms-wedding
+{
+  padding: 10px,auto;
+  justify-content: center;
+  display: block;
+}
+.wed_guid
+{
+  justify-content: center;
+  display: flex
+}
+.b-color
+{
+  background-color: #e76f6f;
+  padding: 10px;
+  font-weight: bolder;
+  color: #000000;
+  font-family: pop;
+}
+@media only screen and (max-width: 768px)
+{
+  .whatsapp
+  {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+}
+
+/* -------------------nishantcss-------------- */
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2
+{
+  flex-basis: 50%;
+  min-width: 300px;
+  font-family: 'Pangolin', cursive;
+  color: black;
+
+}
+.col-2 img{
+
+  max-width: 100%;
+}
+.col-2_margin
+{
+  margin-top: 33vh;
+  margin-left: 33vh;
+  font-family: pop;
+  font-size: 43px;
+}
+.col-2_margin_p
+{
+  margin-top: 3vh;
+  margin-left:34vh;
+}
+.categories
+{
+margin: 70px, 0px;
+}
+.col-3{
+  flex-basis: 50%;
+  min-width: 250px;
+  /* margin-bottom: 30px; */
+}
+.col-3 img
+{
+  width: 100%;
+}
+.small-container
+{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.col-4
+{
+  flex: 25%;
+  padding: 10px, 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transform :0.5sec;
+  max-width: 300px;
+  
+}
+
+.col-4 img{
+   width: 100%;
+}
+
+.title
+{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: rgb(0, 0, 0);
+}
+
+
+.title::after
+{
+content: '';
+background: #ff523b;
+width: 80px;
+height: 5px;
+border-radius: 5px;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+
+}
+
+h4
+{
+  color: #555;
+  font-weight: normal;
+
+}
+
+.col-4 p{
+
+  font-size: 14px;
+}
+
+.rating .fa
+{
+color: #ff523b;
+}
+
+
+
+.col-4:hover{
+  transform: translateY(-5px);
+}
+
+.col-3 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: larger;
+  padding-left: 54px;
+  color: rgb(0, 0, 0);
+}
+.col-3 h6{
+  background-blend-mode: color-burn;
+  background-color: rgb(95, 26, 26);
+  font-family: monospace;
+  border-width: 1px;
+  border-radius: 20px;
+  width: 50%;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  justify-content: center;
+  display:flex;
+}
+a:hover {
+  color: #c07a7a;
+}
+a {
+  color: #ffffff;
+}
+.col-3 p{
+  justify-content: center;
+  display: flex;
+  font-family: pop;
+  font-weight: bolder;
+  
+}
+.col-3 p{
+  font-size: 20px;
+  color: rgb(0, 161, 161);
+  margin-bottom: 1px;
+}
+
+.col-3 h5
+{
+  justify-content: center;
+  display: flex;
+  color: #700202;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+} 
+.header{
+  background: repeating-radial-gradient(white,rgb(236, 194, 201))
+
+}
+
+
+
+
+/* ------------Features Products--------- */
+
+
+/* --------------------Media Quories---------------- */
+#topbar {
+  background: #7e0202;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #fff;
+}
+@media (max-width: 992px){
+#header .logo {
+    font-size: 20px;
+}
+.wed_guid
+{
+
+display: flex;
+justify-content: center;
+}
+
+
+.col-2_margin
+{
+  margin-top: 2vh;
+  margin-left: 0vh;
+  font-family: pop;
+  font-size: 43px;
+}
+.col-2_margin_p
+{
+  margin-top: 0vh;
+  margin-left:0vh;
+  font-size: 17px;
+}
+
+}
+
+
+/* --------------------Media Quories---------------- */
+
+@media only screen and (max-width: 768px){
+.row{
+  text-align: center;
+}
+.col-3{
+  flex-basis: 100%;
+}
+
+.whatsapp
+{
+  margin-left: 13vh;
+  display: flex;
+    justify-content: center;
+}
+}
+
+
+
+/* ---------------------------- wedding Form------------------------ */
+
+
+.form
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------- wedding Form------------------------ */
+
+
+
+/* ----------------------cart page--------------- */
+
+.cart-page
+{
+  margin: 80px auto;
+
+}
+.table
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+  width: 100%;
+}
+td{
+  padding: 10px 5px;
+  width: 100%;
+}
+.td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color: #ff523b;
+  font-size: 12px;
+}
+
+.cart-info{
+  width: 80px;
+  height: 80px;
+
+}
+.btn-primary
+{
+  width: 50%;
+}
+
+@media only screen and (min-width: 767px){
+  .btn-primary{
+    margin-left: 80px;
+    width: 40%;
+  }
+  .whatsapp_guid
+  {
+    justify-content: center;
+    display: flex;
+  }
+}
+/* -----------------product detail page------- */
+.btn-pro
+{
+display: inline-block;
+background: #ff523b;
+color: white;
+padding: 8px,30px;
+margin: 30px,0px;
+border-radius: 25px;
+font-size: medium;
+font-weight: normal;
+}
+/* ------------single product--------- */
+.single-product{
+  margin-top: 80px;
+
+}
+
+.single-product .col-2 img{
+  padding: 2px;
+}
+.single-product .col-2{
+  padding: 20px;
+}
+
+.single-product h4
+{
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.single-product .cart-input-button{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  border: 1px solid #ff523b;
+}
+.single-product .tp-mrn
+{
+  padding-top: 80px;
+}
+.single-product .pd-top
+{
+  padding-top: 20px;
+}
+.single-product .size-whatsapp
+{
+  padding: 8px,30px;
+margin: 30px,0px;
+}
+.single-product .whatsapp-dir-btn
+{
+  background-color: green;;
+  padding: 8px,30px;
+margin: 30px,0px;
+display: inline-block;
+font-size: x-large;
+width: auto;
+padding-left: 10px;
+font-family: Arial, Helvetica, sans-serif;
+color: whitesmoke;
+padding-right: 10px;
+}
+
+.whatsapp-dir-btn:hover
+{
+  text-emphasis: none;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.check-out-button
+{
+  background-color:#0097d7;
+  padding: 8px,30px;
+margin: 30px,0px;
+display: inline-block;
+font-size: large;
+width: auto;
+padding-left: 10px;
+font-family:'Poppins', sans-serif;
+font-weight: bold;
+color: whitesmoke;
+padding-right: 10px;
+transition: transform 0.5sec;
+text-emphasis: none;
+text-decoration: none;
+}
+
+.check-out-button:hover
+{
+
+  color: #000000;
+  
+  transform: translateX(-5px);
+  text-decoration: none;
+  text-emphasis: none;
+}
+
+
+.fa-shopping-cart
+{
+
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  margin: 5px;
+}
+.single-product .upload-button
+{
+  background-color: rgb(0, 183, 255);
+  color: #000000;
+  padding: 8px,30px;
+  margin: 30px,0px;
+  display: inline-block;
+  font-size: medium;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.upload-button:hover
+{
+  color: rgb(255, 251, 251);
+  background-color: rgb(253, 72, 0);
+}
+.single-product .red-star {
+  color: red;
+}
+.single-product .upload-p
+{
+  color: #810f00;
+  font-style: italic;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.single-product .small-img-row
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.single-product .small-img-col
+{
+  flex-basis: 50%;
+  cursor: pointer;
+}
+
+
+ .single-product .fa-star
+{
+  color: red;
+}
+h3 p{
+  font-size: larger;
+}
+.Font-size-p
+{
+  font-size: 23px;font-family: sans-serif;
+}
+
+.fa-star
+{
+  color: red;
+}
+
+
+.modal-body h2{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: black
+}
+
+
+
+/* -------------media query for less than 600 screen size---------- */
+@media only screen and (max-width: 600px){
+
+  .single-product .row{
+    text-align: left;
+  }
+  .col-2, .col-3, .col-4{
+    flex-basis: 100%;
+  }
+  .single-product .col-2
+  {
+    padding: 20px , 0px;
+  }
+  .single-product .h1
+  {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .small-container
+  {
+    padding-bottom: none;
+  }
+  .single-product
+  {
+   margin-top: 40px; 
+  }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------cart page--------------- */
+/* ---------------coast calculator---------- */
+.cost-border{
+  background-color: rgb(13 110 253 / 18%);
+  width: 300px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
+
+     
+input[type="radio"]:disabled{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  border: 1px solid #ff523b;
+}
+.cost-border h2
+{
+  font-size: 20px;
+}
+.cost-padding
+{
+  padding: 3px;
+  margin: 1px;
+}
+.echo_popup
+{
+  color: rgb(228, 0, 0);
+  font-weight: bold;
+  font-size: medium;
+
+}
